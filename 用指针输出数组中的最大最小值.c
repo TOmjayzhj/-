@@ -5,8 +5,8 @@ int main(void)
 	int a[]={1,2,3,4,5,6,7,8,9,12,13,14,16,17,21,23,55};
 	int min ,max;
 	minmax(a,sizeof(a)/sizeof(a[0]),&min,&max);
-	printf("a[0]=%d\n",a[0]);
-	printf("sizeof(a)=%d\nsizeof(a[0])=%d\n",sizeof(a),sizeof(a[0]));
+	//printf("a[0]=%d\n",a[0]);
+	//printf("sizeof(a)=%d\nsizeof(a[0])=%d\n",sizeof(a),sizeof(a[0]));
 	printf("min=%d,max=%d\n",min,max);
 	return 0;
 }
